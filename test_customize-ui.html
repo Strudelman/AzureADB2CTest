@@ -16,16 +16,25 @@
             text-align: center;
         }
 
-        .entry{
-            background-color: #2e6da4;
-            border-bottom: 5px solid #2e6da4;
-            border-radius: 2px;
-            font-size: 18px;
-            line-height: 1.3333333;
-            padding: 10px 16px;
-            color: #fff;
-            height: 45px;
-            width: 100%;
+        .entry-item{
+            outline: 0;
+            background-color: #fff!important;
+            background-image: none!important;
+            border-radius: .5rem!important;
+            color: #555;
+            display: inline-block;
+            font-size: 1em;
+            height: 50px;
+            line-height: 1.42857143;
+            padding: 6px 20px;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+            width: 100%!important;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s!important;
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s!important;
+        }
+
+        input, select {
+            border: 1px solid #605e5c;
         }
 
         #api .buttons button {
