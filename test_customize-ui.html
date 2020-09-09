@@ -8,6 +8,7 @@
         }
 
         body {
+            font-family: "Calibri";
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -53,13 +54,24 @@
             background-color: #1662c7;
             color: #fff;
         }
+
+        #button {
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background-color: #c71616;
+            color: #fff;
+            padding: 10px 16px;
+            border-radius: 0.5rem;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
 
     <h1>This is the login page!</h1>
-    <h2>You can redirect to another page?</h2>
     <div id="api"></div>
+    <h2>You can redirect to another page?</h2>
     <div class="redirect">
         <p>
             <a id="button" tabindex="1" href="https://raw.githubusercontent.com/Strudelman/AzureADB2CTest/master/test_redirection.html">
